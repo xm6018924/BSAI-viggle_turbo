@@ -19,6 +19,10 @@ cd ComfyUI/custom_nodes
 git clone https://github.com/xm6018924/BSAI-viggle_turbo.git
 ```
 
+### 最近更新（2026-11-24）
+- 仓库不再提交 `__pycache__/*.pyc`：取消跟踪，并新增 `.gitignore`（`__pycache__/`、`*.pyc`、`*.pyo`、`.venv/`）
+- 节点与输入接口无变化，已保存的工作流不受影响
+
 ### 要求
 - Qwen-Image-2.1 模型
 - ComfyUI 0.36+
@@ -39,6 +43,10 @@ Qwen-Image-2.1 Viggle Turbo nodes (official port). Provides 6-step fast sampling
 cd ComfyUI/custom_nodes
 git clone https://github.com/xm6018924/BSAI-viggle_turbo.git
 ```
+
+### Recent changes (2026-11-24)
+- `__pycache__/*.pyc` is no longer committed: untracked, plus a new `.gitignore` covering `__pycache__/`, `*.pyc`, `*.pyo`, `.venv/`
+- No change to the nodes or their inputs, so saved workflows are unaffected
 
 ### Requirements
 - Qwen-Image-2.1 model
